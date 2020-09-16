@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  width: 100%;
+  height: 80px;
+  background: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+@-webkit-keyframes opacity_on {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes opacity_on {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.title {
+  font-size: 28px;
+  color: white;
+}
+
+.transition {
+  -webkit-animation-name: opacity_on;
+          animation-name: opacity_on;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  margin-bottom: 15px;
+}
+
+.nav-voice,
+.description {
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+}
+
+#principal-img {
+  width: 100%;
+  height: 400px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.contenitor-text {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+
+@media screen and (max-width: 850px) {
+  .nav-voice {
+    display: none;
+  }
+}
+

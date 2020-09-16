@@ -1,0 +1,19 @@
+$white : white;
+
+$black: black;
+
+$grey : gray;
+
+$big: 28px;
+
+$middle: 20px;
+
+$small: 15px;
+
+$hundred: 100%;
+
+@mixin flex ($justify:center,$align: center) {
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+}

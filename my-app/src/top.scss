@@ -1,0 +1,54 @@
+#header{
+    width: $hundred;
+    height: 80px;
+    background: $black;
+    @include flex (space-around);
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@keyframes opacity_on {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+.title{
+    font-size: $big;
+    color: $white;
+}
+
+.transition{
+    animation-name: opacity_on;
+    animation-duration: 4s;
+    margin-bottom: $small;
+}
+
+.nav-voice,.description{
+    font-size: $small;
+    color: $white;
+    cursor: pointer;
+}
+
+#principal-img{
+    width: $hundred;
+    height: 400px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/hero-painteressentials-7.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.contenitor-text{
+    width: 500px; 
+    height: 400px;
+    position: absolute;
+    top: 10%;
+    right: 15%;
+}
+
+
+
