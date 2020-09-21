@@ -72,9 +72,68 @@
   right: 15%;
 }
 
+#sticky-bar {
+  position: -webkit-sticky;
+  position: sticky;
+  width: 100%;
+  height: 80px;
+  background: #cccbcb;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: black;
+}
+
+.middle-text {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#second-img {
+  width: 100%;
+  height: 800px;
+  background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  color: white;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 50px;
+}
+
+#contenitor-video {
+  width: 950px;
+  height: 550px;
+  background: black;
+  border-radius: 10px 10px 0px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#girl-video {
+  width: 900px;
+}
+
 @media screen and (max-width: 850px) {
   .nav-voice {
     display: none;
+  }
+
+  #sticky-bar {
+    display: none;
+  }
+
+  .contenitor-text {
+    right: 0 !important;
   }
 }
 

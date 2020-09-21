@@ -50,5 +50,51 @@
     right: 15%;
 }
 
+#sticky-bar{
+    position: sticky;
+    width: $hundred;
+    height: 80px;
+    background: rgb(204, 203, 203);
+    padding-left: 5%;
+    padding-right: 5%;
+    @include flex(space-around);
+    color: $black;
+}
+
+.middle-text{
+    font-size: $middle;
+    cursor: pointer;
+}
+
+#second-img{
+    width: $hundred;
+    height: 800px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex (space-between);
+    flex-direction: column;
+    font-size: $maxi;
+    color: $white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+}
+
+#contenitor-video{
+    width: 950px;
+    height: 550px;
+    background: black;
+    border-radius: 10px 10px 0px 0px;
+    @include flex;
+}
+
+#girl-video{
+    width: 900px;
+}
+
+
+
 
 
