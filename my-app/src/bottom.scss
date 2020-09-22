@@ -1,0 +1,66 @@
+#scroll-img-two{
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-01.jpg");
+}
+
+.final-contenitor{
+    width: $hundred;
+    min-height: 500px;
+}
+
+.contenitor-mini-box{
+    width: $hundred;
+    @include flex;
+    flex-wrap: wrap;
+}
+
+.mini-box{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+.zoom{
+    width: 250px;
+}
+
+.zoom:hover{
+    transition: 2s;
+    transform: scale(1.2);
+}
+
+.background{
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/brushpacks-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box{
+    width: 400px;
+    height: 400px;
+    background: white;
+    margin: 50px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#end-bar{
+    width: $hundred;
+    min-height: 250px;
+    background: rgb(204, 203, 203);
+    padding-left: 300px;
+    padding-right: 300px;
+    @include flex(space-between,center);
+    flex-wrap: wrap;
+}
+
+.description-box{
+    width: 200px;
+    height: 200px;
+}
+
+.bold{
+    font-weight: bolder;
+}

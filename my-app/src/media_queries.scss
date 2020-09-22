@@ -8,4 +8,23 @@
     .contenitor-text{
         right: 0!important;
     }
+    .second-contenitor, #biggest-contenitor, #end-bar{
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+
+    #contenitor-video, #third-img{
+        width: 400px!important;
+        height: 250px!important;
+    }
+
+    #girl-video, .tablet, #example, .contenitor-description{
+        width: 350px!important;
+    }
+
+    .other-box{
+        flex-direction: column;
+    }
+
+
   }

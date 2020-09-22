@@ -1,0 +1,101 @@
+.second-contenitor{
+    width: $hundred;
+    height: 900px;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 100px;
+    flex-direction: column;
+}
+
+.space-around{
+    @include flex(space-around);
+    flex-direction: column;
+}
+
+#second-img{
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/intro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    @include flex (space-between);
+}
+
+.text-maxi{
+    font-size: $maxi;
+}
+
+#contenitor-video{
+    width: 950px;
+    height: 550px;
+    background: $black;
+    border-radius: 10px 10px 0px 0px;
+    @include flex;
+}
+
+#girl-video{
+    width: 900px;
+}
+
+#third-img{
+    width: 950px;
+    height: 550px;
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/before-after/before-04.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#scroll-img-one{
+    background-image: url("https://www.painterartist.com/static/ptr/product_content/painteressentials/7/image-bg-02.jpg");
+}
+
+.scroll-image{
+    width: $hundred;
+    height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#biggest-contenitor{
+    width: $hundred;
+    background: #222222;
+    padding-left: 300px;
+    padding-right: 300px;
+    flex-direction: column;
+}
+
+#first-box{
+    width: 1200px;
+    height: 750px;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+#example{
+    width: 800px;
+}
+
+.other-box{
+    width: 1200px;
+    height: 550px;
+    @include flex;
+    margin-bottom: 100px;
+}
+
+.width-50{
+    width: 50%,
+}
+
+.contenitor-description{
+    height: $hundred;
+    padding: 10px;
+    @include flex;
+    flex-direction: column;
+}
+
+.tablet{
+    width: 600px;
+}
+
+

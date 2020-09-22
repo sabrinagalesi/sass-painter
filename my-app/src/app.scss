@@ -2,11 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 
 @import "variables.scss";
 @import "top.scss";
 @import "media_queries.scss";
+@import "main.scss";
+@import "bottom.scss";
 
 
 
